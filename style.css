@@ -15,6 +15,7 @@
     background-color: gray;
     opacity: 0.67;
     display: flex;
+    border-radius: 25px;
     align-items: center;
     position: absolute;
     top: 0px;
