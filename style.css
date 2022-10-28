@@ -1,0 +1,189 @@
+/*CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*CSS VARIABLES */
+:root {
+    --navbar-height: 59 px;
+}
+
+
+/* Navigation Bar */
+#navbar {
+    background-color: gray;
+    opacity: 0.67;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*Navigation Bar: Logo and Styling*/
+#logo {
+    margin: 6px -18px;
+}
+
+#logo img {
+    height: 67px;
+    margin: 8px 42px;
+}
+
+/*Navigation Bar: List Styling */
+
+/*#navbar{
+    position: relative;
+}*/
+#navbar ul {
+    display: flex;
+    border-radius: 20px;
+}
+
+#navbar ::before {
+    content: "";
+    /* background-color:grey;*/
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    z-index: -1;
+
+
+}
+
+#navbar ul li {
+
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 4px 26px;
+    border-radius: 20px;
+    text-decoration: none;
+    /*to remove underline*/
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+/*Home Section*/
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 100px;
+    height: 702px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('gymbg3.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    top: 0px;
+    left: 0px;
+}
+
+#home h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}
+
+#home p {
+    color: black;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Services Section*/
+#services {
+    text-align: center;
+    margin: 104px;
+    display: flex;
+
+}
+
+
+
+
+#services .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 6px;
+    border-radius: 23px;
+    background-color: grey;
+
+
+}
+
+#services .box img {
+    height: 126px;
+    margin: auto;
+    display: block;
+
+}
+
+#services .box p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#services .box a {
+    color: white;
+    display: block;
+    padding: 4px 26px;
+    border-radius: 20px;
+    text-decoration: none;
+    /*to remove underline*/
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Utility Classes*/
+.h-primary {
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.h-secondary {
+    font-size: 1.5rem;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 16px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
