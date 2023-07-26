@@ -1,2 +1,2 @@
 # Gym-Website.github.io
-This is my project of a online gym program providing online gym services.
+This is my project of a online gym website providing online gym services.
